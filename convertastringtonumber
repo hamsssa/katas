@@ -1,0 +1,6 @@
+#include <stdlib.h>
+int string_to_number(const char *src) 
+{
+    int result = atoi(src);
+    return result;
+}
